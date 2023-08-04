@@ -1,0 +1,2107 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@600&family=EB+Garamond:wght@500&family=Heebo:wght@100;700&family=Lilita+One&family=Lobster&family=PT+Serif:wght@700&family=Raleway&family=Rubik&family=Ysabeau+Office:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@600&family=EB+Garamond:wght@500&family=Heebo:wght@100;700&family=Lilita+One&family=Lobster&family=PT+Serif:wght@700&family=Rubik&family=Ysabeau+Office:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600&family=EB+Garamond:wght@500&family=Heebo:wght@100;700&family=Lilita+One&family=Lobster&family=PT+Serif:wght@700&family=Raleway&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&display=swap');
+
+/*Navbar----------------------------------------------------------------------------------------------------------*/
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+html {
+    font-size: 16px;
+}
+
+#Navigate:hover {
+    font-weight: bolder;
+}
+
+#homelogo-btn {
+    background-color: transparent;
+    border: transparent;
+}
+
+#pagelogo {
+    height: 3.85rem;
+    width: 16rem;
+    display: flex;
+    margin-right: -7rem;
+    margin-top: 0.4rem;
+    margin-left: 0.5rem;
+    position: relative;
+}
+
+#Courses {
+    color: #000000;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-top: 1.1rem;
+    padding: 0.75rem;
+    position: relative;
+    text-decoration: none;
+    margin-right: -16rem;
+    border-radius: 0.313rem;
+    margin-left: 13.7rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+#searchbox {
+    margin-left: 3.125rem;
+    width: 129.031rem;
+    height: 7rem;
+    position: relative;
+    border-radius: 4.125rem;
+    margin-top: 1.9rem;
+    font-size: 2.5rem;
+    margin-right: 0.188rem;
+    border: 0.125rem solid rgb(184, 178, 178);
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.custom-modal {
+    width: 10rem;
+    height: 20rem;
+    margin-left: 10rem;
+    margin-right: auto;
+    margin-top: 21rem;
+}
+
+#cart {
+    color: #000000;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-top: 1.2rem;
+    padding: 0.688rem;
+    position: relative;
+    border-radius: -0.687rem;
+    margin-left: 16.2rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+#navbartext2 {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    width: 19rem;
+    margin-top: 1.4rem;
+    font-size: 1.1rem;
+    text-decoration: none;
+    margin-left: 47rem;
+    margin-right: -19.313rem;
+    position: relative;
+}
+
+#navbartextlogin {
+    background: #010305;
+    color: #FFFFFF;
+    font-size: 1.1rem;
+    font-weight: 700;
+    width: 5.25rem;
+    text-decoration: none;
+    padding: 0.65rem;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 1.2rem;
+    margin-left: 1.2rem;
+    position: relative;
+}
+
+#navbartextsignup {
+    background: transparent;
+    color: #000000;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    width: 5.2rem;
+    padding: -12.25rem;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 1.2rem;
+    margin-left: 0.5rem;
+    position: relative;
+    border: 0.188rem solid black;
+}
+
+/*Navbar Ends Here----------------------------------------------------------------------------------------------------------*/
+/*Footer Starts Here----------------------------------------------------------------------------------------------------------*/
+
+.Footer-Modules {
+    background: #000000;
+    height: 29rem;
+    width: 1515px;
+    margin-left: -10rem;
+    background-attachment: fixed;
+    font-family: 'Belanosima', sans-serif;
+}
+
+#FooterHeading {
+    color: #ffffff;
+    font-size: 1.8125rem;
+    text-decoration: none;
+    margin-bottom: 0.625rem;
+    font-weight: 500;
+    margin-left: 0.3125rem;
+    text-decoration: underline;
+    text-underline-offset: 0.8rem;
+}
+
+#FooterText {
+    color: #ffffff;
+    font-size: 1rem;
+    text-decoration: none;
+    line-height: 2;
+    font-weight: 100;
+    margin-left: 0.3125rem;
+}
+
+#FooterText:hover {
+    color: #0074d9;
+    text-decoration: underline;
+    text-underline-offset: 0.0375rem;
+}
+
+#Coloum {
+    width: 204.5rem;
+    height: 1.8125rem;
+    margin-top: 7.6875rem;
+    margin-bottom: 0.4375rem;
+}
+
+#footer-Logo {
+    height: 4.5rem;
+    width: 20rem;
+    margin-left: 4.125rem;
+    margin-top: 1.3125rem;
+}
+
+#FooterLogoText {
+    margin-left: 5.9375rem;
+    margin-top: 0.6875rem;
+    font-size: 1.5rem;
+    text-align: justify;
+    width: 21.125rem;
+    line-height: 1.2;
+    font-weight: 500;
+    color: #d9d0d0;
+    position: relative;
+}
+
+#FooterRow {
+    margin-left: 4.0625rem;
+    margin-top: 1.75rem;
+    display: flex;
+    margin-left: -81.5rem;
+    height: 11.5rem;
+}
+
+/*Footer Ends Here----------------------------------------------------------------------------------------------------------*/
+
+/*Home Page---------------------------------------------------------------------------------------------------------- */
+:root {
+    font-size: 16px;
+}
+
+.homepage {
+    position: relative;
+}
+
+#carouselExampleAutoplaying {
+    height: 38.5625rem;
+    width: 86.6rem;
+    display: flex;
+    margin-bottom: 0.3125rem;
+    margin-top: -79rem;
+    margin-left: -5.25rem;
+}
+
+.homecorouselimg {
+    height: 35 rem;
+    width: 88rem;
+    margin-left: -1.2rem;
+    display: flex;
+    position: relative;
+}
+
+.coureselad {
+    margin-left: -0.0625rem;
+}
+
+.carbox1 {
+    width: 48.8125rem;
+    height: 31.5rem;
+    margin-top: -47.625rem;
+    margin-bottom: 1.875rem;
+    position: relative;
+    margin-left: -5.875rem;
+
+}
+
+.carbox2 {
+    background-color: #ffffff;
+    width: 28.8125rem;
+    height: 14.5rem;
+    margin-top: -25.625rem;
+    margin-bottom: 1.875rem;
+    position: relative;
+    margin-left: 7.125rem;
+    box-shadow: 0px 0.125rem 0.625rem 0.0625rem;
+    border-radius: 0.75rem;
+}
+
+.carbox3 {
+    background-color: #ffffff;
+    width: 28.8125rem;
+    height: 14.5rem;
+    margin-top: -25.625rem;
+    margin-bottom: 1.875rem;
+    position: relative;
+    margin-left: 7.125rem;
+    box-shadow: 0px 0.125rem 0.625rem 0.0625rem;
+    border-radius: 0.75rem;
+}
+
+.box1 {
+    font-size: 6.25rem;
+    width: 53.125rem;
+    margin-left: 3.0625rem;
+    margin-top: -1.2rem;
+}
+
+#homecbtn {
+    height: 1.9375rem;
+    width: 1.9375rem;
+    margin: 0.25rem;
+    margin-top: 14.5625rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 3.9375rem;
+    border-radius: 100%;
+}
+
+#addhome {
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+    width: 35rem;
+    color: #35c5ef;
+    text-align: left;
+    position: relative;
+    font-family: 'EB Garamond', serif;
+}
+
+#addhome1 {
+    font-size: 2rem;
+    margin-left: 49.0625rem;
+    width: 29.4375rem;
+    color: #FFFFFF;
+    line-height: 1.1;
+    text-align: left;
+    margin-top: -2rem;
+    font-family: 'EB Garamond', serif;
+}
+
+#addhome2 {
+    font-size: 3.125rem;
+    width: 51.25rem;
+    margin-left: 2.8125rem;
+    margin-top: 1.6875rem;
+    color: #d5851e;
+    font-family: 'EB Garamond', serif;
+}
+
+#addhome-1 {
+    font-size: 3.5rem;
+    font-weight: bolder;
+    margin-left: 49rem;
+    margin-top: 19.5625rem;
+    width: 53.75rem;
+    color: #e3e3e3;
+    text-align: left;
+    margin-bottom: 2rem;
+    line-height: 7rem;
+    position: relative;
+    font-family: 'EB Garamond', serif;
+}
+
+#addhome2-3 {
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-left: 1.7rem;
+    margin-top: 1.5rem;
+    width: 35rem;
+    color: #38a33e;
+    text-align: left;
+    position: relative;
+    font-family: 'EB Garamond', serif;
+}
+
+#addhome1-2 {
+    font-size: 1.8rem;
+    margin-left: -.3rem;
+    width: 25rem;
+    line-height: 1.1;
+    position: relative;
+    text-align: left;
+    font-family: 'EB Garamond', serif;
+}
+
+#addhome1-3 {
+    font-size: 1.8rem;
+    margin-left: -.3rem;
+    width: 25rem;
+    line-height: 1.1;
+    position: relative;
+    text-align: left;
+    font-family: 'EB Garamond', serif;
+}
+
+#addhome4 {
+    font-size: 2.3125rem;
+    font-weight: bold;
+    margin-top: 1.375rem;
+    position: relative;
+    margin-left: -5.7rem;
+    font-family: 'Belanosima', sans-serif
+}
+
+#addhome5 {
+    font-size: 1.6rem;
+    font-weight: bold;
+    position: relative;
+    font-weight: 400;
+    margin-top: -0.0625rem;
+    margin-left: 0.5rem;
+    margin-bottom: -0.5rem;
+    font-family: 'Belanosima', sans-serif;
+}
+
+#Explorebtn {
+    border: #009dbb;
+    color: #ffffff;
+    background-color: #009dbb;
+    margin-top: 1rem;
+    margin-left: -15.5rem;
+    position: relative;
+    font-size: 1.1875rem;
+    padding-top: 0.625rem;
+    padding-bottom: 0.75rem;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
+    font-weight: 600;
+    border-radius: 0.3rem;
+}
+
+#Explorebtn:hover {
+    background-color: #373434;
+    color: #ffffff;
+}
+
+#Checkbutton {
+    background-color: #38a33e;
+    border: #38a33e;
+    color: #ffffff;
+    margin-top: 1rem;
+    margin-left: -16.5rem;
+    position: relative;
+    font-size: 1.1875rem;
+    padding-top: 0.625rem;
+    padding-bottom: 0.75rem;
+    padding-left: 1.875rem;
+    padding-right: 1.875rem;
+    font-weight: 600;
+    border-radius: 0.3rem;
+}
+
+#Checkbutton:hover {
+    background-color: #80ba83;
+    color: #ffffff;
+}
+
+#Joinbutton {
+    margin-top: 3rem;
+    margin-left: 49rem;
+    background-color: transparent;
+    position: relative;
+    font-size: 1.5rem;
+    border: 3px solid #ffffff;
+    color: #ffffff;
+    padding-top: 0.625rem;
+    padding-bottom: 0.75rem;
+    padding-left: 1.875rem;
+    padding-right: 1.875rem;
+    width: 9.75rem;
+    font-weight: 600;
+    border-radius: 0.25rem;
+}
+
+#Joinbutton:hover {
+    background-color: #eeeeee;
+    color: #000000;
+}
+
+.Tab2 {
+    height: 75.875rem;
+    width: 8.59375rem;
+    margin-left: -2.3125rem;
+}
+
+.ContentTab {
+    padding-left: 3.5rem;
+    padding-bottom: 4 rem;
+    height: 40.375rem;
+    width: 88rem;
+    margin-top: -6.8125rem;
+    margin-left: -27.3rem;
+    border: 0.0625rem solid #dadde1;
+    position: relative;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background: transparent;
+    margin: 6.25rem auto 0;
+    word-break: break-all;
+}
+
+.content-tabs {
+    height: 31.25rem;
+    position: relative;
+}
+
+.tabs2 {
+    padding: 0.9375rem;
+    text-align: center;
+    width: 50%;
+    background-color: transparent;
+    cursor: pointer;
+    text-align: left;
+    background-color: transparent;
+    box-sizing: content-box;
+    position: relative;
+    color: grey;
+    font-weight: bold;
+    outline: none;
+    border-color: transparent;
+}
+
+.tabs:hover {
+    color: #000;
+}
+
+.active-tabs {
+    background: white;
+    color: #000;
+}
+
+.content {
+    background: white;
+    padding: 1.25rem;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.active-content {
+    display: block;
+}
+
+#tab-text-1 {
+    font-size: 2.1875rem;
+    text-align: left;
+    width: 1rem;
+    position: relative;
+    margin-left: -1.125rem;
+}
+
+#tab-text-midline {
+    font-size: 2.5rem;
+    text-align: left;
+    font-weight: bold;
+    margin-top: 0.3125rem;
+    margin-bottom: 0.3125rem;
+    position: relative;
+}
+
+#tab-text-2 {
+    font-size: 2.1875rem;
+    text-align: left;
+    width: 2.75rem;
+    position: relative;
+}
+
+#tab-img1 {
+    height: 2.6875rem;
+    width: 3.5rem;
+    margin-left: 2rem;
+    margin-top: -2.3125rem;
+    position: relative;
+}
+
+#tab-img2 {
+    height: 2.0625rem;
+    width: 2.4375rem;
+    margin-left: 2.5625rem;
+    margin-top: -2.5rem;
+    position: relative;
+}
+
+#Tab-heading {
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-left: -29.7rem;
+    margin-top: -5.25rem;
+}
+
+#Tab-topic {
+    width: 82.3125rem;
+    font-size: 1.2rem;
+    text-align: left;
+    margin-left: -3.9rem;
+}
+
+#Multicr-Tab-btn {
+    margin-bottom: 4.0625rem;
+    font-weight: 500;
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-left: -3.7rem;
+    padding: 0.875rem;
+    width: 22.0625rem;
+    background: white;
+}
+
+#Multicr-Tab-btn:hover {
+    background-color: #000;
+    color: white;
+}
+
+#Home-cd-btn {
+    width: 13.4375rem;
+    padding: 1.25rem;
+    font-size: 1.5625rem;
+    margin-top: 2.5rem;
+    font-weight: 700;
+    color: white;
+    background: #114F33;
+    border-color: #114F33;
+    border-radius: 0.3125rem;
+}
+
+#Home-cd-btn:hover {
+    background: #1a945d;
+}
+
+#Home-atc-btn {
+    padding: 1.25rem;
+    font-size: 1.5625rem;
+    margin-top: 2.5rem;
+    font-weight: 700;
+    color: white;
+    width: 13.4375rem;
+    margin-left: 0.5625rem;
+    background: rgb(255, 3, 3);
+    border-color: rgb(255, 0, 0);
+    margin-right: 0.375rem;
+    border-radius: 0.3125rem;
+}
+
+#Home-atc-btn:hover {
+    background: rgb(182, 47, 47);
+}
+
+/*Home Page Ends Here----------------------------------------------------------------------------------------------------------*/
+
+/*Login Page Starts here----------------------------------------------------------------------------------------------------------*/
+
+
+.LoginField {
+    height: 30rem;
+    margin-left: 14rem;
+}
+
+
+#firstl {
+    font-size: 1.5rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    margin-left: -11rem;
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+}
+
+
+.GoogleLogin {
+    margin-top: 0.4rem;
+    text-align: center;
+    width: 30rem;
+    margin-left: 9.7rem;
+    border: 1px solid black;
+}
+
+.FacebookLogin {
+    margin-top: 0.4rem;
+    text-align: center;
+    width: 30rem;
+    margin-left: 9.7rem;
+    border: 1px solid black;
+}
+
+#Input {
+    margin-left: 9.7rem;
+    margin-bottom: 0.4rem;
+    font-size: 1rem;
+    margin-top: 0.4rem;
+    font-family: 'Raleway', sans-serif;
+    width: 30rem;
+    height: 3.6rem;
+    padding-left: 2rem;
+    border: 0.1px solid black;
+    border-radius: 0rem
+}
+
+#LogB {
+    font-size: 1.5rem;
+    font-weight: 700;
+    background-color: #000000;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    width: 30rem;
+    height: 3.5rem;
+    border-color: #000000;
+    margin-left: -12.6rem;
+}
+
+#LogB:hover {
+    background-color: #2b2a2a;
+}
+
+#or {
+    font-size: 1rem;
+    margin-left: -10.84375rem;
+    position: relative;
+    margin-top: -.5rem;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    margin-right: -0.8125rem;
+}
+
+#FP {
+    margin-left: 0.9rem;
+    font-size: 1rem;
+    color: #5624d0;
+    font-weight: bold;
+    background: transparent;
+    border-color: transparent;
+    justify-content: center;
+    margin-top: 0.125rem;
+    position: relative;
+    text-underline-offset: 0.4rem;
+    text-decoration: underline;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+#FP:hover {
+    color: #0971d0;
+}
+
+.linelog {
+
+    width: 54rem;
+    box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.2);
+    margin-top: 1.1875rem;
+    height: 0.125rem;
+    margin-top: 1.3rem;
+    width: 21rem;
+    width: 29.9rem;
+    margin-left: 9.7rem;
+
+}
+
+#dhna {
+    font-size: 1rem;
+    margin-left: 0.0625rem;
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+    margin-right: -0.875rem;
+    font-weight: 600;
+    margin-top: -0.1125rem;
+}
+
+#CreateAB {
+    font-size: 1rem;
+    background-color: transparent;
+    color: #5624d0;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    height: 2.5rem;
+    width: 29.0625rem;
+    position: relative;
+    margin-top: 0.75rem;
+    margin-left: -11.0625rem;
+    text-underline-offset: 0.4rem;
+    text-decoration: underline;
+    border-radius: 0.5rem;
+    border-color: transparent;
+}
+
+#CreateAB:hover {
+    color: #0971d0;
+}
+
+.lbox {
+    margin-bottom: 12.5rem;
+}
+
+/*Login Page Ends here----------------------------------------------------------------------------------------------------------*/
+
+/*Signup page starts here----------------------------------------------------------------------------------------------------------*/
+
+.signup-module {
+    margin-left: 13rem;
+}
+
+#Firstline {
+    font-size: 1.5rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    margin-left: -26rem;
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+}
+
+#Input-Signup {
+    margin-left: 9.7rem;
+    margin-bottom: 0.4rem;
+    font-size: 1rem;
+    margin-top: 0.4rem;
+    font-family: 'Raleway', sans-serif;
+    width: 30rem;
+    height: 3.6rem;
+    padding-left: 2rem;
+    border: 0.1px solid black;
+    border-radius: 0rem
+}
+
+#ConfirmPassword {
+    margin-left: 9.7rem;
+    margin-bottom: 0.4rem;
+    font-size: 1rem;
+    margin-top: 0.4rem;
+    font-family: 'Raleway', sans-serif;
+    width: 30rem;
+    height: 3.6rem;
+    padding-left: 2rem;
+    border: 0.1px solid black;
+    border-radius: 0rem
+}
+
+#signup-checkbox {
+    height: 2.2rem;
+    width: 2.2rem;
+    margin-left: -45rem;
+    margin-top: 1rem;
+    position: relative;
+}
+
+#Secondline {
+    font-size: 1.7rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    margin-left: -25.5rem;
+    position: relative;
+    width: 44rem;
+    text-align: left;
+    margin-bottom: 0.3rem;
+    margin-top: 1rem;
+}
+
+#SignupB {
+    font-size: 1.2rem;
+    font-weight: 700;
+    background-color: #000000;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    width: 30rem;
+    height: 3.5rem;
+    border-color: #000000;
+    margin-left: -13.6rem;
+}
+
+#SignupB:hover {
+    background-color: #2b2a2a;
+}
+
+.linesign {
+
+    width: 54rem;
+    box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.2);
+    margin-top: 1.1875rem;
+    height: 0.125rem;
+    margin-top: 1.3rem;
+    width: 21rem;
+    width: 29.9rem;
+    margin-left: 9.7rem;
+}
+
+#ahan {
+    font-size: 1rem;
+    margin-left: -13rem;
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+    margin-right: -0.875rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+#Loginb {
+    margin-left: 1rem;
+    font-size: 1rem;
+    text-underline-offset: 0.4rem;
+    text-decoration: underline;
+    color: #5624d0;
+    font-weight: bold;
+    background: transparent;
+    border-color: transparent;
+    justify-content: center;
+    margin-top: 1rem;
+    Font-family: 'Raleway', sans-serif;
+}
+
+.matches {
+    font-size: 30rem;
+}
+
+/*Signup page ends here----------------------------------------------------------------------------------------------------------*/
+
+
+/*ForgotPage Starts here----------------------------------------------------------------------------------------------------------*/
+
+#headingForgotpage {
+    font-size: 1.5rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    margin-left: -17rem;
+    margin-bottom: 0.5rem;
+    margin-top: 3rem;
+}
+
+#Inputfield-fotgot {
+    margin-left:23.7rem;
+    margin-bottom: 0.4rem;
+    font-size: 1rem;
+    margin-top: 0.4rem;
+    font-family: 'Raleway', sans-serif;
+    width: 30rem;
+    height: 3.6rem;
+    padding-left: 2rem;
+    border: 0.1px solid black;
+    border-radius: 0rem;
+}
+
+#LoginForgot-btn {
+    margin-left: 12.7rem;
+    font-size: 1rem;
+    text-underline-offset: 0.8rem;
+    text-decoration: underline;
+    color: #5624d0;
+    margin-bottom: 14rem;
+    font-weight: bold;
+    background: transparent;
+    border-color: transparent;
+    justify-content: center;
+    margin-top: 1rem;
+    Font-family: 'Raleway', sans-serif;
+    margin-bottom: 6rem;
+}
+
+#ResetForgot-btn {
+    font-size: 1.2rem;
+    font-weight: 700;
+    background-color: #000000;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    width: 30rem;
+    height: 3.5rem;
+    border-color: #000000;
+    margin-left: 1.4rem;
+}
+
+#ResetForgot-btn:hover {
+    background-color: #2b2a2a;
+}
+
+#orFp {
+    font-size: 1 rem;
+    margin-left: 2rem;
+    position: relative;
+    margin-top: -8rem;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    margin-right: -12.5rem;
+
+}
+
+/*ForgotPage Ends here----------------------------------------------------------------------------------------------------------*/
+
+
+/*Teach With me starts here----------------------------------------------------------------------------------------------------------*/
+#teachbanner {
+    width: 74.5rem;
+    margin-left: 0.8rem;
+    height: 28rem;
+    margin-top: 3rem;
+    display: grid;
+    margin-bottom: 5rem;
+    position: relative;
+}
+
+.Itsbox {
+    height: 31.5rem;
+    margin-top: -25.625rem;
+    margin-bottom: 1.875rem;
+    position: relative;
+    margin-left: 58.125rem;
+
+}
+
+#addits-1 {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    margin-left: -70rem;
+    margin-top: -187rem;
+    width: 52rem;
+    color: #212529;
+    text-align: left;
+    line-height: 1;
+    position: relative;
+    font-family: 'EB Garamond', serif;
+}
+
+#addits-2 {
+    margin-top: 1rem;
+    font-size: 2rem;
+    margin-left: -91.5rem;
+    width: 31rem;
+    color: #000;
+    font-weight: 500;
+    line-height: 1.1;
+    text-align: left;
+    position: relative;
+    font-family: 'EB Garamond', serif;
+}
+
+#teachmodal-btn1 {
+    font-size: 1.2rem;
+    width: 13rem;
+    text-align: center;
+    font-weight: 700;
+    background-color: #000;
+    color: white;
+    padding: 0.5rem;
+    margin-left: -109rem;
+    position: relative;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+#teachmodal-btn1:hover {
+    background-color: #343333;
+    color: white;
+}
+
+#teachmodal-btn:hover {
+    background-color: #373434;
+    color: #FFFFFF;
+}
+
+#ItsHeadline {
+    font-size: 1.5rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    margin-bottom: 1.7rem;
+    margin-top: 3rem;
+    text-align: left;
+    color: #5624d0;
+}
+
+#ItsCaption {
+    font-size: 1rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    margin-left: 0rem;
+    position: relative;
+    width: 27.4rem;
+    text-align: justify;
+    margin-bottom: 1.3rem;
+    margin-top: -1.2rem;
+}
+
+#Input-ItsSignup {
+    font-size: 1rem;
+    font-family: 'Raleway', sans-serif;
+    width: 27rem;
+    font-weight: bold;
+    margin-left: 0.2rem;
+    margin-bottom: 0.3rem;
+    height: 4.3125rem;
+    border-radius: 0rem;
+    border: 1px solid black;
+}
+
+#Itssignup-checkbox {
+    height: 1rem;
+    width: 1rem;
+    position: relative;
+    margin-top: .8rem;
+}
+
+#Itssecondline {
+    margin-left: -2.5rem;
+    font-size: 1rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    margin-top: 0.5rem;
+    position: relative;
+    width: 24rem;
+    text-align: justify;
+    margin-bottom: 4.3rem;
+}
+
+#ItsSignupB {
+    font-size: 1.2rem;
+    background-color: #000000;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    height: 3rem;
+    font-weight: 600;
+    margin-left: .2rem;
+    width: 27rem;
+    border-color: #FFFFFF;
+    margin-top: -2.5rem;
+}
+
+#ItsSignupB:hover {
+    background: #343333
+}
+
+.teachlinesign {
+    box-shadow: 0 16rem 0rem 0rem rgba(0, 0, 0, 0.2);
+    margin-top: 9rem;
+    height: 2rem;
+    margin-top: 2rem;
+    width: 38rem;
+}
+
+#teachitsahan {
+    font-size: .8rem;
+    margin-left: 6.8rem;
+    font-family: 'Raleway', sans-serif;
+    margin-right: -12rem;
+    margin-top: -1rem;
+    font-weight: 600;
+}
+
+#ItsLoginb {
+    margin-left: 2.5rem;
+    font-size: .8rem;
+    text-underline-offset: 0.2rem;
+    text-decoration: underline;
+    color: #5624d0;
+    font-weight: bold;
+    background: transparent;
+    border-color: transparent;
+    justify-content: center;
+    margin-top: -2rem;
+    Font-family: 'Raleway', sans-serif;
+}
+
+/*Grid Module----------------------------------------------------------------------------------------------------------*/
+.GridModule {
+    height: 40rem;
+    width: 179rem;
+    margin-left: -54rem;
+    margin-top: 2rem;
+}
+
+.GridHeading {
+    font-size: 3rem;
+    margin-top: -8rem;
+    font-weight: 700;
+    margin-left: 2.5rem;
+    text-align: center;
+    position: relative;
+    justify-content: center;
+    margin-bottom: 6rem;
+}
+
+.teachItsrow {
+    width: 95rem;
+    display: flex;
+    margin-left: -11.5rem;
+    position: relative;
+    justify-content: center;
+    margin-bottom: 13rem;
+}
+
+.teachItscol {
+    margin-left: 4rem;
+    width: 27rem;
+}
+
+#TeachGrid {
+    height: 6rem;
+    width: 7rem;
+}
+
+#Gridtitle {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 700;
+}
+
+#Gridtext {
+    font-size: 1rem;
+    width: 35rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+/*Grid Module 2----------------------------------------------------------------------------------------------------------*/
+
+.GridModule2 {
+    height: 14rem;
+    width: 94.5rem;
+    margin-left: -9.5rem;
+    margin-top: 3rem;
+    background: linear-gradient(to bottom, #c6c6c6, #0074d9);
+    background-color: #0074d9;
+}
+
+.teachItsrow2 {
+    width: 75rem;
+    display: flex;
+    position: relative;
+    margin-left: 10rem;
+    margin-top: -3rem;
+}
+
+.teachItscol2 {
+    width: 15rem;
+}
+
+.Gridtitle2 {
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 5rem;
+    color: white;
+}
+
+.Gridtext2 {
+    font-weight: 500;
+    font-size: 1.2rem;
+    width: inherit;
+    justify-content: center;
+    margin-top: -.6rem;
+    position: relative;
+    color: white;
+}
+
+/*Tabs Starts Here----------------------------------------------------------------------------------------------------------*/
+.TabHeading {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.content-tabs {
+    height: 50rem;
+    position: relative;
+    margin-left: 1rem;
+}
+
+.tab-btn {
+    display: flex;
+    font-size: 1.6rem;
+    width: 53rem;
+    margin-left: -16rem;
+    background-color: transparent;
+    border-bottom: 1px solid rgb(199, 196, 196);
+}
+
+.tabs {
+    padding: 1rem;
+    text-align: center;
+    width: 50%;
+    background-color: transparent;
+    cursor: pointer;
+    background-color: transparent;
+    box-sizing: content-box;
+    position: relative;
+    color: grey;
+    font-weight: 600;
+    outline: none;
+    border-color: transparent;
+}
+
+.tabs:hover {
+    color: #000;
+}
+
+.active-tabs {
+    background: white;
+    color: #000;
+}
+
+.content {
+    background: white;
+    padding: 1rem;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.active-content {
+    display: block;
+}
+
+#tab-text-1 {
+    font-size: 1rem;
+    text-align: left;
+    width: 36rem;
+    position: relative;
+    margin-left: -20rem;
+    margin-top: -3rem;
+}
+
+#tab-text-midline {
+    font-size: 1.5rem;
+    text-align: left;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+#tab-text-2 {
+    font-size: 1.2rem;
+    text-align: left;
+    width: 32.5rem;
+    position: relative;
+}
+
+#tab-img1 {
+    height: 26rem;
+    width: 39rem;
+    margin-left: 7rem;
+    margin-top: -21rem;
+    position: relative;
+}
+
+#tab-img2 {
+    height: 21rem;
+    width: 26rem;
+    margin-left: 13rem;
+    margin-top: -21rem;
+    position: relative;
+}
+
+#tab-img3 {
+    height: 26rem;
+    width: 29rem;
+    margin-left: 13rem;
+    margin-top: -22rem;
+    position: relative;
+}
+
+/*Grid Module----------------------------------------------------------------------------------------------------------*/
+.grid2-moudleadjst {
+    margin-top: 22rem;
+    height: 28rem;
+    width: 94.57rem;
+    margin-left: -10rem;
+    background: linear-gradient(to bottom, #c6c6c6, #0074d9);
+    background-color: #0074d9;
+    position: relative;
+}
+
+#TeachlogHeading {
+    font-size: 2rem;
+    color: #383838;
+    margin-top: 3rem;
+    width: 76rem;
+    margin-left: 1rem;
+    font-family: 'Yeseva One', cursive;
+}
+
+#gridmodulerow2 {
+    width: 92.5rem;
+    height: 20rem;
+    margin-top: -1rem;
+    margin-left: -7.2rem;
+}
+
+
+#gridimg {
+    height: 5rem;
+    width: 5rem;
+    margin-left: 2.5rem;
+}
+
+.gridheadline {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    color: white;
+    margin-left: 2.5rem;
+    font-family: 'Bacasime Antique', serif;
+}
+
+.gridtopic {
+    line-height: 1.5rem;
+    margin-top: .5rem;
+    font-size: 1rem;
+    text-align: center;
+    width: 18rem;
+    margin-left: 3.6rem;
+    color: white;
+    font-family: 'Bacasime Antique', serif;
+}
+
+#GridRow2 {
+    margin-left: -9rem;
+    height: 34rem;
+    margin-top: 23rem;
+    width: 93rem;
+    display: flex;
+}
+
+#Endingleft {
+    height: 23rem;
+    margin-top: -31rem;
+    width: 28rem;
+    position: relative;
+    margin-left: -5rem;
+}
+
+#ItsEndingTitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#ItsEndingText {
+    font-size: 1.1rem;
+    margin-left: -2.rem;
+    text-align: center;
+}
+
+#Endingright {
+    height: 23rem;
+    width: 26rem;
+    margin-right: -5.5rem;
+    position: relative;
+    margin-top: -28.5rem;
+}
+
+.TeachLoginDash {
+    background: linear-gradient(to bottom, #c6c6c6, #0074d9);
+    background-color: #0074d9;
+    position: relative;
+    height: 24rem;
+    margin-top: -34rem;
+    width: 94.65rem;
+    margin-left: -10rem;
+}
+
+#TeachLogTitle {
+    font-size: 3rem;
+    margin-left: -1rem;
+    margin-top: 4rem;
+    font-weight: 600;
+}
+
+#TeachLogtext {
+    font-size: 2rem;
+    margin-left: 7.5rem;
+    width: 67rem;
+}
+
+#teachmodal-btn2 {
+    font-size: 1.3rem;
+    width: 19rem;
+    text-align: center;
+    font-weight: 700;
+    background-color: #000;
+    color: white;
+    padding: 0.5rem;
+    margin-left: 0.5rem;
+    position: relative;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+#teachmodal-btn2:hover {
+    background-color: #343333;
+    color: white;
+}
+
+/*Teach With me end here----------------------------------------------------------------------------------------------------------*/
+
+/*Blogs Page Starts here----------------------------------------------------------------------------------------------------------*/
+
+.BannerBlogs {
+    height: 28rem;
+    width: 95rem;
+    margin-left: -10rem;
+    margin-top: -3.5rem;
+    background-color: #f8f9fa;
+    position: relative;
+}
+
+.blogrow {
+    margin-left: 68rem;
+    display: flex;
+}
+
+#BlogBannerTitle {
+    font-size: 3rem;
+    margin-left: -102rem;
+    font-weight: 700;
+    margin-top: 8rem;
+}
+
+#BlogBannerText {
+    text-align: left;
+    width: 22rem;
+    font-size: 1.5rem;
+    margin-left: -99.5rem;
+}
+
+#blogimg {
+    height: 13rem;
+    width: 13rem;
+    margin-top: 8.5rem;
+    margin-left: -11rem;
+}
+
+#headingblogcard {
+    font-size: 2.6rem;
+    margin-top: 2.5rem;
+    width: 27rem;
+    margin-left: 3rem;
+    font-weight: 600;
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.Blogcardrow {
+    display: flex;
+    margin-left: 1.5rem;
+    width: 90rem;
+}
+
+.BlogGridModule {
+    margin-top: -3rem;
+}
+
+#BlogsCard {
+    width: 30rem;
+    height: 15.5rem;
+    padding: 1rem;
+    margin-left: 2.8rem;
+    position: relative;
+}
+
+#Topic-Title {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: rgb(117, 117, 117);
+    position: relative;
+}
+
+#TopicLink {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #000;
+    font-weight: 600;
+    position: relative;
+
+}
+
+#TopicLink:hover {
+    color: #5624d0;
+}
+
+#trademark-logo {
+    margin-top: 2rem;
+    height: 3.3rem;
+    width: 14rem;
+    position: relative;
+}
+
+.BlogsCard {
+    height: 22rem;
+    display: flex;
+    width: 95rem;
+    margin-left: -10rem;
+    border-bottom: 1px solid rgb(194, 194, 194);
+    position: relative;
+    margin-top: 1rem;
+}
+
+.BlodmoduleHeading {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: -1rem;
+}
+
+.BlogGridrow {
+    height: 15rem;
+    margin-left: -0.5rem;
+    display: flex;
+    margin-top: -3rem;
+    margin-bottom: 8rem;
+}
+
+.BlogGridcol {
+    width: 24rem;
+    border-left: 1px solid rgb(194, 194, 194);
+    margin-right: 0rem;
+    padding: 1rem;
+}
+
+.card-body {
+    text-align: left;
+}
+
+#trademarkgrid-logo {
+    margin-top: 2rem;
+    height: 3.5rem;
+    width: 14rem;
+    position: relative;
+}
+
+.BlogGridModule3 {
+    margin-top: -6rem;
+}
+
+.Blogswiper {
+    margin-left: -1rem;
+}
+
+.react-multi-carousel-list {
+    width: 86.5rem;
+    margin-left: -4.2rem;
+    margin-top: -2rem;
+    position: relative;
+}
+
+.Blog-card-title {
+    font-size: 1rem;
+    font-weight: bold;
+    position: relative;
+}
+
+.Blog-card-text {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 1rem;
+    position: relative;
+}
+
+#BlogCourses-btn {
+    color: white;
+    font-weight: bold;
+    width: 17rem;
+    margin-top: 4.5rem;
+    margin-bottom: 4.5rem;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    position: relative;
+    margin-left: 1.8rem;
+    background-color: #000;
+}
+
+#BlogCourses-btn:hover {
+    background-color: #373434;
+}
+
+.BLogTeachGrid {
+    height: 9.5rem;
+    width: 95rem;
+    margin-left: -10rem;
+    border-top: 3px solid #d4d2d2;
+}
+
+.BlogTeachrow {
+    width: 95rem;
+    margin-left: -6.5rem;
+    height: 11rem;
+    margin-top: -4rem;
+    display: flex;
+}
+
+.BlogTeachcol {
+    width: 92rem;
+}
+
+.BlogTeachtitle {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: -6rem;
+}
+
+.BlogTeachtitletext {
+    font-size: 1.5rem;
+    width: 64rem;
+    margin-left: 4rem;
+}
+
+#BlogTeach-btn {
+    color: white;
+    font-weight: bold;
+    width: 20rem;
+    margin-top: 0.5rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    background-color: #000;
+    position: relative;
+    margin-right: 4.5rem;
+}
+
+#BlogTeach-btn:hover {
+    background-color: #373434;
+}
+
+/*Blogs Page Ends here----------------------------------------------------------------------------------------------------------*/
+
+/*Careers Page Starts here----------------------------------------------------------------------------------------------------------*/
+
+
+.CareersBanner {
+    width: 94.5rem;
+    margin-left: -10rem;
+    height: 49rem;
+    margin-top: 2.8rem;
+    background-color: rgb(232, 218, 199);
+    position: relative;
+}
+
+.Bannerbox {
+    width: 81.5rem;
+    height: 35rem;
+    margin-left: 6.5rem;
+    border-bottom: 1px solid #040303;
+}
+
+#CareersHeadingText {
+    margin-right: -45rem;
+    font-size: 2.4rem;
+    font-weight: 900;
+    width: 26rem;
+    margin-top: 11rem;
+    line-height: 1.3;
+    text-align: left;
+    margin-left: -100.5rem;
+}
+
+#CareersHeadingTopic {
+    font-size: 1.2rem;
+    font-weight: 500;
+    width: 34rem;
+    margin-top: 1rem;
+    text-align: justify;
+    margin-left: -47.5rem;
+}
+
+#CareersBanner {
+    width: 35rem;
+    margin-left: 46rem;
+    height: 20rem;
+    margin-top: -20.5rem;
+    position: relative;
+}
+
+#DropDown1-Head {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    margin-top: -4rem;
+    font-weight: 500;
+    color: #000000;
+}
+
+#DropDown2-Head {
+    font-size: 1.5rem;
+    margin-left: 0.5rem;
+    margin-top: -4rem;
+    font-weight: 500;
+    color: #000000;
+}
+
+#dropdown {
+    width: 33rem;
+    height: 5rem;
+    font-weight: 400;
+    border: 1px solid #000000;
+    font-size: 1.5rem;
+    padding-left: 2rem;
+}
+
+#Career-btn {
+    border: 0.25rem solid;
+    margin-top: -1.04rem;
+    background-color: #000;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 1.38rem;
+    margin-left: -1rem;
+    width: 12.5rem;
+    border: #000;
+    color: white;
+}
+
+.CareerGrid-Title {
+    font-size: 2rem;
+    margin-left: 2.2rem;
+    font-weight: 700;
+    color: #014179;
+}
+
+.CareerGrid-Text {
+    margin-top: 1rem;
+    margin-left: 2.2rem;
+    font-size: 1.1rem;
+    text-align: justify;
+    width: 24rem;
+}
+
+#Career-card-title2 {
+    margin-top: 1.5rem;
+    font-size: 2rem;
+    margin-left: 2.5rem;
+    color: #014179;
+    font-weight: 700;
+}
+
+#Career-card-text2 {
+    width: 40rem;
+    margin-top: 1rem;
+    text-align: justify;
+    font-size: 1.5rem;
+    margin-left: 2.5rem;
+}
+
+#LastImg {
+    width: 70.5rem;
+    margin-left: -3rem;
+    margin-top: 82rem;
+    position: relative;
+}
+
+.CareerLastGrid {
+    background-color: rgb(232, 218, 199);
+    width: 94.5rem;
+    margin-left: -10rem;
+    height: 31rem;
+    margin-top: -17.5rem;
+}
+
+/*Careers Page Ends here----------------------------------------------------------------------------------------------------------*/
+
+/*ContactUs Page Starts here----------------------------------------------------------------------------------------------------------*/
+#ContactUs-Banner {
+    height: 29rem;
+    width: 95rem;
+    margin-left: -10rem;
+    margin-top: 2.7rem;
+    position: relative;
+}
+
+#ContactUs-Title {
+    padding-bottom: 1rem;
+    width: 80rem;
+    margin-left: -2rem;
+    color: #0692bd;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    box-shadow: 0rem 0.25rem 1rem 0rem #2fc4f2;
+    font-weight: 700;
+    font-size: 1.8rem;
+    margin-top: 17rem;
+}
+
+#ContactUs-Text {
+    margin-top: 4rem;
+    width: 60rem;
+    font-size: 1.2rem;
+    font-weight: 495;
+    color: #5624d0;
+    margin-left: 0rem;
+    margin-bottom: 4.5rem;
+}
+
+#City-img {
+    height: 18rem;
+}
+
+#Img-City_box_heading {
+    padding-bottom: 1rem;
+    width: 80rem;
+    margin-left: -2rem;
+    color: #0692bd;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    box-shadow: 0rem 0.25rem 1rem 0rem #2fc4f2;
+    font-weight: 700;
+    font-size: 1.8rem;
+    margin-bottom: 6rem;
+}
+
+#Form-card-heading {
+    margin-top: 3rem;
+    margin-left: -5.5rem;
+    font-size: 1.8rem;
+    font-weight: 590;
+    margin-bottom: 0.5rem;
+}
+
+#Input-Contact-Form-Fname {
+    height: 3.2rem;
+    font-size: 1rem;
+    width: 29.5rem;
+}
+
+#Input-Contact-Form-Lname {
+    margin-top: -3.2rem;
+    margin-left: 30.2rem;
+    height: 3.2rem;
+    font-size: 1rem;
+    width: 29.5rem;
+    margin-bottom: 1.5rem;
+}
+
+#Input-Contact-Form-Mail {
+    height: 3.2rem;
+    font-size: 1rem;
+    width: 29.5rem;
+    margin-top: -1.2rem;
+}
+
+#Input-Contact-Form-Phone {
+    margin-top: -3.2rem;
+    margin-left: 30.2rem;
+    height: 3.2rem;
+    font-size: 1rem;
+    width: 29.5rem;
+    margin-bottom: 1.5rem;
+}
+
+#Input-Contact-Form-Phone-Reason {
+    margin-top: -1.2rem;
+    height: 6rem;
+    width: 59.7rem;
+    padding-left: 0.7rem;
+    font-size: 1rem;
+    border: 1px solid gainsboro;
+    border-radius: 0.25rem;
+}
+
+#Contact-submit-btn {
+    width: 59.7rem;
+    height: 4rem;
+    font-size: 1.5rem;
+    background: black;
+    margin-top: 1 rem;
+    color: white;
+    font-weight: 750;
+}
+
+#Contact-submit-btn:hover {
+    background-color: #4a4848;
+}
+
+/*ContactUs Page Ends here----------------------------------------------------------------------------------------------------------*/
+
+/*AboutUs Page Starts here----------------------------------------------------------------------------------------------------------*/
+
+#AboutUs-Banner-img {
+    height: 37rem;
+    width: 95rem;
+    margin-left: -10rem;
+    margin-top: 2.85rem;
+    margin-bottom: 0.75rem;
+    position: relative;
+}
+
+.AboutUs-Banner-Heading {
+    font-weight: 700;
+    text-align: left;
+    width: 39rem;
+    margin-top: -27.38rem;
+    margin-left: -5rem;
+    font-size: 3rem;
+    position: relative;
+}
+
+.BannerFooter {
+    width: 95rem;
+    margin-left: -10rem;
+    background-color: #000000;
+    height: 5rem;
+    padding-top: 1rem;
+    font-size: 2rem;
+    margin-top: 12.7rem;
+    color: white;
+    position: relative;
+}
+
+.BannerHeading {
+    font-weight: 700;
+    font-size: 2.5rem;
+    position: relative;
+    margin-top: 3rem;
+}
+
+.BannerHeading-Text {
+    font-size: 1.5rem;
+    width: 68rem;
+    margin-left: 4rem;
+    margin-top: 1rem;
+    margin-bottom: -6rem;
+    position: relative;
+}
+
+.BioWithPic {
+    background-color: #EBECF1;
+    width: 95rem;
+    margin-left: -10rem;
+    margin-top: 10rem;
+    height: 28rem;
+    position: relative;
+}
+
+.AboutUsGrid-Points {
+    margin-left: -81rem;
+    height: 46rem;
+}
+
+#Company-Caption {
+    margin-top: 3rem;
+    font-size: 2rem;
+    width: 90rem;
+    font-weight: 600;
+    position: relative;
+    position: relative;
+}
+
+.CompanyLogo-Grid {
+    height: 65rem;
+    width: 95rem;
+    margin-left: -10rem;
+    margin-top: -14rem;
+    box-shadow: -56px 4px 51px -19px;
+    position: relative;
+}
+
+.ComapnyState-Banner {
+    width: 95rem;
+    margin-left: -10rem;
+    height: 29rem;
+    position: relative;
+    padding-top: 2.5rem;
+    margin-top: 6rem;
+    background: linear-gradient(to bottom, #fffdfd, #0074d9);
+    background-color: #0074d9;
+}
+
+.Col-Title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+    position: relative;
+}
+
+.Col-Text {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-left: -1.5rem;
+    color: white;
+    position: relative;
+}
+
+.Company-State-Text {
+    margin-top: -1rem;
+    font-size: 3rem;
+    font-weight: 800;
+    position: relative;
+    color: #6c757d;
+}
+
+.Company-State-Title {
+    margin-top: 1.5rem;
+    font-size: 2rem;
+    color: #FFFF;
+    width: 58rem;
+    font-weight: 400;
+    margin-left: 19rem;
+    position: relative;
+}
+
+.LastGrid-card {
+    margin-top: -2rem;
+    height: 34rem;
+    width: 95rem;
+    margin-left: -11rem;
+}
+
+.Aboutus-card-title {
+    font-weight: 700;
+    font-size: 2rem;
+    margin-left: -1.5rem;
+}
+
+.Aboutus-card-text {
+    margin-top: 1.5rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #000;
+    text-align: justify;
+    margin-left: -1.5rem;
+    width: 24rem;
+}
+
+#About-Nav-btn {
+    margin-left: -1.8rem;
+    background: transparent;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border: transparent;
+}
+
+#About-Nav-btn:hover {
+    color: white;
+}
+
+/*AboutUs Page Ends here----------------------------------------------------------------------------------------------------------*/
+
+/*-------------------------------------------------------Privacy Policy starts here --------------------------------------------*/
+.Privacy-Banner{
+    width: 95rem;
+    margin-left: -10rem;
+    
+}
+/*-------------------------------------------------------Privacy Policy Ends here --------------------------------------------*/
+
+/*-------------------------------------------------------Terms and Conditions Starts here --------------------------------------------*/
+
+/*-------------------------------------------------------Terms and Conditions Ends here --------------------------------------------*/
